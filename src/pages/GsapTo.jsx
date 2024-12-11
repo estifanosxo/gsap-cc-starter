@@ -1,5 +1,12 @@
+import gsap from "gsap";
+
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
+  useGSAP(()=> {
+    gsap.to('#blue-box', {
+      x: 250,
+    })
+  }, []);
 
   return (
     <main>
