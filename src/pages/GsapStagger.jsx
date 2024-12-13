@@ -10,7 +10,14 @@ const GsapStagger = () => {
       rotation: 360,
       borderRadius: '100%',
       repeat: -1,
-      yoyo: true
+      yoyo: true,
+      stagger: {
+        amount: 1,
+        grid: [2, 1],
+        axis: 'y',
+        ease: 'circ.inOut',
+        from: "center"
+      }
     })
   }, [])
 
