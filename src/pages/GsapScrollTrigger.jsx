@@ -1,4 +1,10 @@
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
 const GsapScrollTrigger = () => {
+  
+
+
   // TODO: Implement the gsap scroll trigger
 
   return (
